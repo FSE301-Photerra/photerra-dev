@@ -8,6 +8,6 @@ Vagrant.configure(2) do |config|
     cd /var/www && rm -rf public/*
     yum -y install git
     git clone https://github.com/FSE301-Photerra/photerra.git public
-    mysql -u root < public/scripts/initdb.sql
+    mysql -u root < /vagrant/scripts/initdb.sql
   SHELL
 end
