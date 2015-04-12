@@ -8,7 +8,7 @@ Vagrant.configure(2) do |config|
     cd /var/www/public && rm -rf ./*
     yum -y install git
     git init
-    git remote add origin https://github.com/FSE301-Photerra/photerra.git
+    git remote add origin https://github.com/FSE301-Photerra/photerras.git
     git pull origin master
     mysql -u root < /vagrant/scripts/initdb.sql
 
