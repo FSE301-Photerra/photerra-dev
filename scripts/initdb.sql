@@ -1,21 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 4.0.10.7
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Feb 17, 2015 at 10:18 PM
--- Server version: 5.5.41-cll-lve
--- PHP Version: 5.4.23
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
 --
 -- Database: `photerras_DB`
 --
@@ -79,17 +63,6 @@ INSERT INTO `Users` (`username`, `password`, `email`, `firstname`, `lastname`, `
 ('rapratt101', '123456', 'asdf@asdff', 'Reese3', 'Pratt3', ''),
 ('wtneal', 'S3cur3', 'wtneal@asu.edu', 'Weston', 'Neal', ''),
 ('Kurvani', 'fse301', 'kkeyvan1@asu.edu', 'Kurosh', 'Keyvani', '');
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
-INSERT INTO `Photos` (`lat`, `lng`, `title`, `filename`, `uid`) VALUES
-(50, 40, '', 'ece178fe9f', 10001),
-(50, 50, 'wwww', 'a006d32d0e', 10002);
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 INSERT INTO `PaymentTypes` (`desc`, `code`) VALUES
 ('Premium Photo', 'pp'),
